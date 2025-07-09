@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
 @app.route('/')
 def home():
-    return "Hello from Jenkins Python Pipeline!"
+    return "Hello from Jenkins jkj Python Pipeline!"
 
 
 if __name__ == '__main__':
