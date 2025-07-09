@@ -1,5 +1,7 @@
 name: Python CI
-
+run: echo "My API Key (masked): ${{ secrets.DB_MYSQL_PASSWORD }}"
+  env:
+    DEMO_KEY: ${{ secrets.DB_MYSQL_PASSWORD }}
 on:
   push:
     branches: [ main ]
